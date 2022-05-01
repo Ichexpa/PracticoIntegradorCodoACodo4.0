@@ -1,0 +1,311 @@
+:root {
+    --bkg-color: rgb(39, 36, 36);
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+/* NAV */
+nav {
+    position: fixed;
+    display: flex;
+    height: 70px;
+    left: 0;
+    right: 0;
+    background-color: var(--bkg-color);
+    justify-content: space-around;
+    top: 0;
+    z-index: 3;
+}
+
+.nav__logo {
+    display: flex;
+}
+
+.texto__nav {
+    align-self: center;
+    color: white;
+}
+
+.nav__img {
+    height: 20px;
+}
+
+.nav__seccion {
+    align-self: center;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#link_def {
+    color: white;
+}
+
+#link_def2 {
+    color: green;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: gray;
+    padding: 10px;
+}
+
+.nav__item {
+    list-style: none;
+}
+
+/* HEADER */
+header {
+    position: relative;
+    height: 1000px;
+    background-image: url("imagenes/ba1.jpg");
+    background-size: cover;
+}
+
+header::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(39, 36, 36, 0.5);
+
+}
+
+.header-info {
+
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    z-index: 2;
+    color: white;
+    width: 25%;
+    margin-top: 70px;
+}
+
+
+.info__titulo {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.info__parrafo {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.info__botones {
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-end;
+}
+
+.boton {
+    padding: 12px;
+    color: white;
+    background-color: green;
+    border-radius: 5%;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.boton__transparente {
+    background-color: transparent;
+    border: solid 1px white;
+    margin-right: 10px;
+}
+
+/* MAIN */
+.title__seccion {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tilte__2 {
+    font-weight: 900;
+}
+
+.seccion__cards {
+    width: 70%;
+    margin: 30px auto 0;
+}
+
+.cards__container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    border: solid 1px rgb(168, 167, 167);
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.card__header {
+    width: 100;
+    height: 60%;
+}
+
+.card__image {
+    width: 100%;
+    height: 100%;
+}
+
+.card__body {
+    padding: 20px;
+
+}
+
+.card__label {
+    margin-top: 15px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.lb__javascript {
+    background-color: rgb(237, 203, 50);
+    color: black;
+}
+
+.lb__react {
+    background-color: aqua;
+}
+
+.lb__negocios {
+    background-color: gray;
+}
+
+.lb__startup {
+    background-color: red;
+}
+
+.card__text {
+    margin-top: 20px;
+}
+
+/* SECCION IMG TEXTO */
+.seccion-img-text {
+    margin-top: 40px;
+    display: flex;
+}
+
+.postal__titulo,
+.postal__info,
+#boton_texto {
+    margin-top: 15px;
+}
+
+.postal__imagen {
+    width: 50%;
+    display: inline-block;
+}
+
+.imagen {
+    width: 100%;
+    height: 100%;
+}
+
+.postal__texto {
+    width: 50%;
+    display: inline-block;
+    background-color: var(--bkg-color);
+    color: white;
+    padding: 20px;
+}
+
+.form-seccion {
+    width: 50%;
+    margin: 20px auto 0;
+}
+
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.form__container {
+    margin-top: 10px;
+    width: 100%;
+
+}
+
+.form input,
+.form textarea {
+    padding: 10px;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+
+.form input {
+    display: flex;
+    width: 49%;
+    height: 30px;
+
+}
+
+.form textarea {
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    font-size: larger;
+}
+
+.form__recom {
+    font-size: smaller;
+    color: gray;
+    margin-top: 5px;
+}
+
+#boton__form {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    height: 45px;
+    font-size: larger;
+    border: none;
+}
+
+#boton__form:hover {
+    background-color: rgb(71, 223, 71);
+
+}
+
+footer {
+    margin-top: 30px;
+    background-color: rgb(18, 66, 2);
+    height: 100px;
+}
+
+.list__items {
+
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.item__footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}

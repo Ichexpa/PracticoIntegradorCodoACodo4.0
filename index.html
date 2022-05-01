@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav__logo">
+                <img src="imagenes/codoacodo.png" alt="" class=nav__imagen>
+                <h3 class="texto__nav">Conf Bs As</h3>
+            </div>
+            <div class="nav__seccion">
+                <ul class="nav__list">
+                    <li class="nav__item"><a id="link_def" class="nav__link" href="">La conferencia</a></li>
+                    <li class="nav__item"><a class="nav__link" href="">Los oradores</a></li>
+                    <li class="nav__item"><a class="nav__link" href="">El lugar y la fecha</a></li>
+                    <li class="nav__item"><a class="nav__link" href="">Conviértete en orador</a></li>
+                    <li class="nav__item"><a id="link_def2" class="nav__link" href="">Comprar tickets</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header-info">
+            <h1 class="info__titulo">Conf Bs As</h1>
+            <p class="info__parrafo">Bs As llega por primera vez a Argentina.Un evento para compartir con nuestra
+                comunidad el cononcimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a
+                conocer a los miembros del evento, a otros estudiantes de Codo a Codo y oradores de primer nivel que
+                queremos para ti. Te esperamos!</p>
+            <div class="info__botones">
+                <a class="boton boton__transparente" href="">Quiero ser orador</a>
+                <a class="boton" href="">Comprar tickets</a>
+            </div>
+        </div>
+        <!--   <div class="header-imagenF"> -->
+        <!--         <img src="imagenes/ba1.jpg" alt="" class="header__image"> -->
+        <!--   </div> -->
+    </header>
+    <main>
+        <div class="title__seccion">
+            <h5 class="title__1">CONOCE A LOS</h5>
+            <h1 class="title__2">ORADORES</h1>
+        </div>
+        <section class="seccion__cards">
+            <div class="cards__container">
+                <div class="card">
+                    <div class="card__header">
+                        <img src="imagenes/steve.jpg" alt="" class="card__image">
+                    </div>
+                    <div class="card__body">
+                        <p class="card__label lb__javascript">Javascript</p>
+                        <p class="card__label lb__react">React</p>
+                        <h1 class="card__title">Steve Jobs</h1>
+                        <p class="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos ipsam nam
+                            sed veniam nemo nostrum quam corrupti? Distinctio laudantium quae, minus quis adipisci
+                            alias. Consectetur, tempore. </p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="card__header">
+                        <img src="imagenes/bill.jpg" alt="" class="card__image">
+                    </div>
+                    <div class="card__body">
+                        <p class="card__label lb__javascript">Javascript</p>
+                        <p class="card__label lb__react">React</p>
+                        <h1 class="card__title">Bill Gates</h1>
+                        <p class="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos ipsam nam
+                            sed veniam nemo nostrum quam corrupti? Distinctio laudantium quae, minus quis adipisci
+                            alias. Consectetur, tempore. </p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="card__header">
+                        <img src="imagenes/ada.jpeg" alt="" class="card__image">
+                    </div>
+                    <div class="card__body">
+                        <p class="card__label lb__negocios">Negocios</p>
+                        <p class="card__label lb__startup">Startup</p>
+                        <h1 class="card__title">Ada Lovelace</h1>
+                        <p class="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos ipsam nam
+                            sed veniam nemo nostrum quam corrupti? Distinctio laudantium quae, minus quis adipisci
+                            alias. Consectetur, tempore. </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="seccion-img-text">
+            <div class="postal__imagen">
+                <img src="imagenes/hawaii2.jpg" alt="" class="imagen">
+            </div>
+            <div class="postal__texto">
+                <h1 class="postal__titulo">Bs As - Octubre</h1>
+                <p class="postal__info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam esse repudiandae
+                    accusantium laboriosam pariatur animi tempore illum, iste quam distinctio minima enim autem, magnam
+                    asperiores! Quae provident et iusto. Nam repudiandae possimus rem impedit eveniet explicabo iste
+                    tenetur, minus earum consequatur iusto dolores voluptatibus consequuntur maxime, qui, fugiat saepe?
+                    Voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, obcaecati. Lorem
+                    ipsum dolor sit amet consectetur, adipisicing elit. Beatae, excepturi provident magni quasi sed eum
+                    vel maxime accusantium non necessitatibus.</p>
+                <a class="boton boton__transparente" id="boton_texto" href="">Conocé más</a>
+            </div>
+        </section>
+        <div class="title__seccion">
+            <h5 class="title__1">CONVIERTETE EN UN</h5>
+            <h1 class="title__2">ORADOR</h1>
+        </div>
+        <section class="form-seccion">
+            <p>Anotate como orador para dar una charla ignite. Cuentanos de que quieres hablar!</p>
+            <div class="form__container">
+                <form class="form" caction="">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Apellido">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="¿De que quieres hablar?"></textarea>
+                    <p class="form__recom">Recuerda incluir un titulo para tu charla</p>
+                    <input class="boton" id="boton__form" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ol class="list__items">
+            <li class="item__footer"><a href="">Preguntas Frecuentes</a></li>
+            <li class="item__footer"><a href="">Contáctanos</a></li>
+            <li class="item__footer"><a href="">Prensa</a></li>
+            <li class="item__footer"><a href="">Conferencia</a></li>
+            <li class="item__footer"><a href="">Terminos y Condiciones</a></li>
+            <li class="item__footer"><a href="">Privacidad</a></li>
+            <li class="item__footer"><a href="">Estudiante</a></li>
+        </ol>
+    </footer>
+</body>
+
+</html>
